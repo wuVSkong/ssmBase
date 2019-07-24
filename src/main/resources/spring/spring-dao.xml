@@ -19,7 +19,6 @@
 		<property name="locations"> <!-- PropertyPlaceholderConfigurer类中有个locations属性，接收的是一个数组，即我们可以在下面配好多个properties文件 -->
 			<array>  <!-- 也可以使用通配符的配置方式 -->
 				<value>classpath:jdbc.properties</value>
-				<value>classpath:redis.properties</value>
 			</array>
 		</property>
 	</bean>
